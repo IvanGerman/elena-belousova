@@ -11,7 +11,7 @@ const SliderPage = () => {
 
   return (
     <div className={styles.container}>
-     
+     sliderPage
     </div>
   );
 };

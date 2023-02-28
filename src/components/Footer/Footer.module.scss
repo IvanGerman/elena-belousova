@@ -1,0 +1,21 @@
+.footer {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.linkWrapper {
+  width: 30vw;
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: #fff;
+  font-size: 1.7vw;
+  letter-spacing: 0.1vw;
+  padding-top: 1vh;
+}
