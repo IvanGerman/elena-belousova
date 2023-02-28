@@ -31,7 +31,7 @@ body {
   height: 100vh;
   background: linear-gradient(0deg, rgba(6,23,47,1) 0%, rgba(13,111,131,1) 33%, rgba(21,168,199,1) 67%, rgba(255,255,255,1) 100%);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  color: #c9dc1b;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

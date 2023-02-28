@@ -1,0 +1,19 @@
+.swiper {
+  width: 20vw;
+  height: 20vw;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  /* transition-duration: 3000ms !important; */
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.slideImage {
+  height: 100%;
+}
