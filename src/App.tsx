@@ -15,7 +15,7 @@ const App: FC = () => {
   let sound = new Audio(audio)
   //@ts-ignore
   const playAudio = (e) => {
-    e.preventDefault();
+    //e.preventDefault();
     sound.play();
   };
   const pauseAudio = () => {
