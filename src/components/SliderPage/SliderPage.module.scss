@@ -3,11 +3,18 @@
   height: 57vh;
 }
 
+.slideImgWrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
 .slideImg {
-  width: 25vw;
+  width: 25vw !important;
 }
 
 .swiper2 {
   width: 40vw !important;
-  height: 40vh !important;
+  height: 50vh !important;
+  margin-top: 0vh;
 }

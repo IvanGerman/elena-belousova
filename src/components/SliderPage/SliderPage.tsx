@@ -1,11 +1,12 @@
 import React, { FC }  from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import "swiper/css/autoplay";
 
 import './swiper-slide.css';
 import styles from './SliderPage.module.scss';
@@ -33,50 +34,51 @@ const SliderPage: FC = () => {
   return (
     <div className={styles.container}>
      <Swiper className={styles.swiper2}
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       spaceBetween={20}
       slidesPerView={1}
       navigation
+      autoplay={ { delay: 3000 } }
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       >
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image1} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image2} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image3} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image4} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image5} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image6} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image7} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image8} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image9} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image10} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image11} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image12} alt='' className={styles.slideImg} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className={styles.slideImgWrapper}>
           <img src={Image13} alt='' className={styles.slideImg} />
         </SwiperSlide>        
 

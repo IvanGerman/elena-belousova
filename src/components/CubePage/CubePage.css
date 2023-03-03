@@ -17,3 +17,7 @@
 .slideImage {
   height: 100%;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  --swiper-theme-color: #fff !important;
+}
