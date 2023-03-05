@@ -12,6 +12,7 @@ const Footer = () => {
        <div className={styles.linkWrapper}>
          <NavLink to="/" >Cube</NavLink>
          <NavLink to="/sliderPage" >Slider</NavLink>
+         <NavLink to="/visitorsPage" >Visitors</NavLink>
        </div>
     </div>
   );

@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import SliderPage from './components/SliderPage/SliderPage';
 //@ts-ignore
 import audio from './assets/sound/funkytown.mp3';
+import VisitorsPage from './components/VisitorsPage/VisitorsPage';
 
 
 const App: FC = () => {
@@ -27,7 +28,8 @@ const App: FC = () => {
       <Header/>
       <Routes>
         <Route path="/" element={<CubePage/>}/>
-        <Route path="sliderPage/*" element={<SliderPage/>}/>       
+        <Route path="sliderPage/*" element={<SliderPage/>}/>    
+        <Route path="visitorsPage/*" element={<VisitorsPage/>}/>   
       </Routes>
       <Footer/>
     </div>
