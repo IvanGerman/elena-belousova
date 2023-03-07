@@ -14,8 +14,8 @@ import VisitorsPage from './components/VisitorsPage/VisitorsPage';
 const App: FC = () => {
 
   let sound = new Audio(audio)
-  //@ts-ignore
-  const playAudio = (e) => {
+  
+  const playAudio = (e: React.MouseEvent) => {
     e.preventDefault();
     sound.play();
   };
